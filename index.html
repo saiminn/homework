@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.jpg">
+</head>
+<body>
+    <div class="container">
+        
+        <svg class="close" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        <h1>Send Us a Message</h1> <br>
+        <input type="text" name="" id="name" placeholder="Full Name"><br>
+        <input type="text" name="" id="email" placeholder="Your Email"><br>
+        <select name="" id="select-input">
+            <option value="I want to post">I want to post</option> 
+            <option value="I want advertise">I want advertise</option>
+            <option value="I want to be in sharer">I want to be in sharer</option>
+            <option value="I wnat to invest">I wnat to invest</option>
+
+        </select> <br>
+        <textarea name="" id="text-box" cols="30" rows="10" placeholder="Your message goes here..."></textarea> <br>
+        <button class="button" onclick="show()">Submit Form</button>
+
+        <div class="span">
+        <span class="showText"></span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B1AEC7;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 606px;
+    height: 860px;
+    position: relative;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+}
+
+h1 {
+    padding-top: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#name , #email, #select-input {
+    height: 45px;
+    width: 418px;
+    display: block;
+    margin: 0 auto;
+    padding-left: 0;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+#select-input {
+    background: transparent;
+    margin-top: 45px;
+}
+
+input  {
+    padding: 45px;
+}
+
+
+    
+
+
+#text-box {
+    width: 476px;
+    height: 159px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 45px;
+    resize: none;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width:476px ;
+    height:45px ;
+    color: white;
+    font-family: 'Merriweather', serif;
+    margin-top: 45px;
+    background-color: #151534;
+    border-radius: 70px;
+}
+
+button:hover {
+    background-color: rgb(67, 65, 114);
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+
+
+.span {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+span {
+    font-size: 14px;
+    color: rgba(4, 33, 255, 0.993);
+    
+}
+
+svg {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 9px;
+    color: grey;
+}
+
+svg:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.kidding {
+    position: absolute;
+    left: 130px;
+    top: 350px;
+    font-size: 200px;
+    color: royalblue;
+    
+
+}
+
+
+
+
+
+
+
+    
+
+    
